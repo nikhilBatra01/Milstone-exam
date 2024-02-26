@@ -1,0 +1,139 @@
+    @media screen and (max-width:720px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .text {
+        font-weight: bold;
+        font-size: 30px;
+        margin: 0 10px;
+    }
+    .nav-item{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .img-item2{
+        display: block;
+        
+    }
+    .pic{
+        display: block;
+    }
+    .heading{
+        font-size: 15px;
+    }
+    .para{
+        border-left: 1px solid black;
+        font-size: 15px;
+    }
+    .buttons{
+        display: flex;
+        position: relative;
+        top: 10vh;
+        left: 10vh;
+    }
+    .btn1{
+        padding: 10px 15px;
+        text-align: center;
+        background-color:darkorange;
+        color: aliceblue; 
+        position: absolute;
+        top: 60vh;
+        left: -1vh;
+   }
+    .btn2{
+        position:absolute;
+        border:1px solid black;
+        padding: 10px 15px;
+        text-align: center;
+        left: 25vw;
+        top: 60vh;
+        font-weight: bold;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .images{    
+        position: relative;
+        top: 10vh;
+    }
+    .img-1{
+        width: 60vw;
+    }
+    .img-2{
+        position: absolute;
+        width: 65vw;
+        left: 6vw;
+        top: -3vh;
+    }
+    .img-3{
+        position: absolute;
+        width: 40vw;
+        left: 17vw;
+        top: 3vh;
+    }
+    .img-4{
+        position: absolute;
+        width: 5vw;
+        top: 55vh;
+        right: 50vw;
+    }
+    .img-5{
+        position: absolute;
+        left: 70vw;
+        width: 5vw;
+    }
+    .img-6{
+        position: absolute;
+        width: 20vw;
+        top: 70vh;
+        left: 40vh;
+    }
+    .contant-2{
+        background:#210b36;
+        position: relative;
+        top: 35vh;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .details{
+        font-size: 10px;
+        color: antiquewhite;
+        text-align: center;
+    }
+    .h3{
+        font-size: 25px;
+    }
+    .details p{
+        display: none;
+    }
+    .details h4{
+        display: block;
+        font-weight: 100;
+    }
+    .img{        
+        flex-direction:column;
+        text-align: center;  
+        padding: 0 25vh;  
+    }
+    .bg-skyblue{
+
+        margin-bottom: 5vh;
+        font-weight: 100;
+    }
+    .bg-org{
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        font-weight: 100;
+    }
+    .bg-lg-blue{
+        margin-bottom: 5vh;
+        margin-top: 5vh;
+        font-weight: 100;
+    }
+}

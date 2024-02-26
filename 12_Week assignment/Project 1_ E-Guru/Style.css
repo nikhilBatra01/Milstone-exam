@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@300&display=swap');
+* {
+    font-family: 'Montserrat', 'Rubik';
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.img-item1{
+    padding: 30px 25px;
+    display: flex;
+    align-items: center;
+}
+.img-item2{
+    display:none;
+}
+.text {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 10px;
+}
+.nav-item{
+    display: flex;
+} 
+.item{
+    list-style: none;
+    margin: 0 40px;
+    font-size: 20px;
+}
+.flex:hover{
+    color: darkorange;
+}
+.btn{
+    border:1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    
+}
+.pic{
+    display: none;
+}
+.content{
+    margin: 0 50px;
+    padding: 10vh 25px;
+    display: flex;
+}
+.heading{
+    font-size: 30px;
+    margin-bottom:30px;
+}
+.para{
+    border-left: 1px solid black;
+    font-size: 25px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+        .buttons{
+            display: flex;
+        }
+.btn1{
+    border:1px solid black;
+    /* padding: 20px 30px; */
+    padding: 15px 25px;
+    text-align: center;
+    background-color:darkorange;
+    color: aliceblue; 
+    margin-right: 30px;
+}
+.btn2{
+    border:1px solid black;
+    padding: 15px 25px;
+    text-align: center;
+}
+.images{    
+    display: flex;
+    position: relative;
+    padding: 0 40px;
+}
+.img-2{
+     position: absolute;
+     top: -5vh;
+     right: 3vh; 
+     z-index: 1;
+}
+.img-3{
+    position: absolute;
+    left:9vw;
+    top: 11vh;
+    width: 20vw;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    
+}
+.img-4{
+    position: absolute;
+    top: 74vh;
+    right: 40vw;
+}
+.img-5{
+    position: absolute;
+    bottom: -1vh;
+    left: 30vw;
+}
+.img-6{
+    position: absolute;
+    top: 45vh;
+    left: -40vh;
+}
+.img-7{
+    position: absolute;
+    top: -5vw;
+    }
+.contant-2{
+    background:#210b36;
+    height: 300px;
+    display:flex;
+}
+.details{
+    font-size: 20px;
+    padding: 15vh 10vh;
+    color: antiquewhite;
+    
+}
+.h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.details p{
+    font-size: 15px;
+}
+.details h4{
+    display: none;
+}
+.img{
+    display: flex;
+    padding: 15vh 20vh;
+    width: 40vw;
+    justify-content: space-between;
+}
+.bg-skyblue{
+    background-color: skyblue;
+    width: 30px;
+    border-radius: 10px;
+    padding: 9px 10px;
+    
+}
+.bg-org{
+    background-color: darkorange;
+    width: 20px;
+    padding: 9px 10px;
+    border-radius: 10px;
+}
+.bg-lg-blue{
+    background-color: blueviolet;
+    width: 30px;
+    padding: 9px 10px;
+    border-radius: 10px;
+}
+.img h3 {
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.img p  {
+    color: aliceblue;
+    font-size: 12px;
+}
